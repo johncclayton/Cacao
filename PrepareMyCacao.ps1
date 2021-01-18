@@ -36,6 +36,7 @@ RefreshEnv
 executeScript "WSL.ps1";
 RefreshEnv
 
+# added a comment.  
 executeScript "Docker.ps1";
 executeScript "AzureDevops.ps1";
 

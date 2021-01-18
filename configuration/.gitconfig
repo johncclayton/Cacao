@@ -1,0 +1,7 @@
+[core]
+	autocrlf = false
+	whitespace = cr-at-eol
+	eol = lf
+[user]
+	name = John Clayton
+	email = johnclayton72@gmail.com

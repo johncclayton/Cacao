@@ -1,7 +1,5 @@
 
 # tools to ease life working with Windows
-choco install -y 7zip.install
-choco install -y winrar
 choco install -y cmdermini
 choco install -y paint.net
 choco install -y SwissFileKnife

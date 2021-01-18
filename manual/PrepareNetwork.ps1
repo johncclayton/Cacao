@@ -1,4 +1,3 @@
-# Description: Boxstarter Script  
 
 Disable-UAC
 
@@ -10,7 +9,7 @@ $helperUri = $helperUri.Substring($strpos + $bstrappackage.Length)
 $helperUri = $helperUri.TrimStart("'", " ")
 $helperUri = $helperUri.TrimEnd("'", " ")
 $helperUri = $helperUri.Substring(0, $helperUri.LastIndexOf("/"))
-$helperUri += "/scripts"
+$helperUri += "/manual"
 write-host "helper script base URI is $helperUri"
 
 function executeScript {
@@ -19,19 +18,7 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-#--- Setting up Windows ---
-executeScript "EnableDeveloperMode.ps1";
-executeScript "FileExplorerSettings.ps1";
-executeScript "RemoveDefaultApps.ps1";
-executeScript "CommonTools.ps1";
-executeScript "WindowsTools.ps1";
-
-#--- Configure Git environment .gitconfig, PowerShell ---
-executeScript "ConfigureGit.ps1";
-
-#--- Configure network / file sharing and remote desktop
-executeScript "NetworkAndFileSharing.ps1"
+# -- gets the network drives attaced
+executeScript "NetworkDrives.ps1";
 
 Enable-UAC
-Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula

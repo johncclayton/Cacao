@@ -56,6 +56,10 @@ executeScript "PersonalProjects.ps1";
 #--- Configure Windows environment .gitconfig, PowerShell ---
 executeScript "ConfigureWindowsEnvironment.ps1";
 
+#--- Configure network drives connected to NAS
+#executeScript "NetworkDrives.ps1"
+# . ./NetworkDrives.ps1
+
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula

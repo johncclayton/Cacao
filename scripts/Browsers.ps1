@@ -1,3 +1,4 @@
 #--- Browsers ---
-choco install microsoft-edge
-choco install firefox
+choco install -y microsoft-edge
+choco install -y firefox
+choco install -y brave

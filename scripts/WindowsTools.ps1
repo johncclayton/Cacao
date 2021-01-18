@@ -10,3 +10,4 @@ choco install -y rufus
 choco install -y vlc
 choco install -y javaruntime
 choco install -y skype
+choco install -y google-backup-and-sync

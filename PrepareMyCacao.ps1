@@ -51,7 +51,7 @@ choco install -y visualstudio2019-workload-visualstudioextension
 #choco install -y resharper-ultimate-all --package-parameters="'/NoCpp'"
 
 #--- Get personal projects ---
-executeScript "PersonalProjects.ps1";
+#executeScript "PersonalProjects.ps1";
 
 #--- Configure Windows environment .gitconfig, PowerShell ---
 executeScript "ConfigureWindowsEnvironment.ps1";

@@ -30,12 +30,6 @@ executeScript "Browsers.ps1";
 executeScript "WindowsTools.ps1";
 executeScript "DotNet.ps1";
 
-executeScript "HyperV.ps1";
-RefreshEnv
-
-executeScript "WSL.ps1";
-RefreshEnv
-
 # added a comment.  
 executeScript "Docker.ps1";
 executeScript "AzureDevops.ps1";

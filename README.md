@@ -5,6 +5,7 @@ Note: before you do this, ensure Weblaunch is enabled in Edge.  edge://flags - t
 TODO: 
 0. Enable NAS shares
 0. Bring across SSH identity from H:/
+0. Copy across gitconfig.template so that the email / name is correct.
 0. Network discovery and file sharing, so P: L: F:
 
 0. Create Hyper-V network bridge (PowerShell?)

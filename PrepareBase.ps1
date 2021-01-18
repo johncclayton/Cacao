@@ -39,29 +39,13 @@ RefreshEnv
 # added a comment.  
 executeScript "Docker.ps1";
 executeScript "AzureDevops.ps1";
-
-#--- Visual Studio ---
-choco install choco install visualstudio2019community -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
-Update-SessionEnvironment #refreshing env due to Git install
-
-choco install -y visualstudio2019-workload-manageddesktop
-choco install -y visualstudio2019-workload-netcoretools
-choco install -y visualstudio2019-workload-azure 
-choco install -y visualstudio2019-workload-visualstudioextension 
-
-#--- Visual Studio extensions ---
-#choco install -y gitdiffmargin
-#choco install -y resharper-ultimate-all --package-parameters="'/NoCpp'"
-
-#--- Get personal projects ---
-#executeScript "PersonalProjects.ps1";
+executeScript "VisualStudio.ps1"
 
 #--- Configure Windows environment .gitconfig, PowerShell ---
 executeScript "ConfigureWindowsEnvironment.ps1";
 
-#--- Configure network drives connected to NAS
-#executeScript "NetworkDrives.ps1"
-# . ./NetworkDrives.ps1
+#--- Configure network / file sharing and remote desktop
+executeScript "NetworkAndFileSharing.ps1"
 
 Enable-UAC
 Enable-MicrosoftUpdate

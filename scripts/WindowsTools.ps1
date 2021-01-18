@@ -3,7 +3,6 @@
 choco install -y 7zip.install
 choco install -y winrar
 choco install -y cmdermini
-choco install -y 1Password
 choco install -y paint.net
 choco install -y SwissFileKnife
 choco install -y windirstat

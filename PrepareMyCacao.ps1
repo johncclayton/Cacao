@@ -22,7 +22,7 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
-executeScript "SystemConfiguration.ps1";
+executeScript "EnableDeveloperMode.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
@@ -32,8 +32,10 @@ executeScript "DotNet.ps1";
 
 executeScript "HyperV.ps1";
 RefreshEnv
+
 executeScript "WSL.ps1";
 RefreshEnv
+
 executeScript "Docker.ps1";
 executeScript "AzureDevops.ps1";
 

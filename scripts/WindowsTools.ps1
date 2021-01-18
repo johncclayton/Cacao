@@ -7,4 +7,4 @@ choco install -y windirstat
 choco install -y rufus
 choco install -y javaruntime
 choco install -y wireguard
-choco install -y steam
+#choco install -y steam

@@ -28,6 +28,7 @@ executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
 executeScript "Browsers.ps1";
 executeScript "WindowsTools.ps1";
+executeScript "DotNet.ps1";
 
 executeScript "HyperV.ps1";
 RefreshEnv
@@ -37,7 +38,7 @@ executeScript "Docker.ps1";
 executeScript "AzureDevops.ps1";
 
 #--- Visual Studio ---
-choco install visualstudio2019professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
+choco install choco install visualstudio2019community -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
 Update-SessionEnvironment #refreshing env due to Git install
 
 choco install -y visualstudio2019-workload-manageddesktop
@@ -46,8 +47,8 @@ choco install -y visualstudio2019-workload-azure
 choco install -y visualstudio2019-workload-visualstudioextension 
 
 #--- Visual Studio extensions ---
-choco install -y gitdiffmargin
-choco install -y resharper-ultimate-all --package-parameters="'/NoCpp'"
+#choco install -y gitdiffmargin
+#choco install -y resharper-ultimate-all --package-parameters="'/NoCpp'"
 
 #--- Get personal projects ---
 executeScript "PersonalProjects.ps1";

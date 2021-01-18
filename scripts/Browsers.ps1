@@ -1,2 +1,3 @@
 #--- Browsers ---
-choco install microsoft-edge-insider-dev
+choco install microsoft-edge
+choco install firefox

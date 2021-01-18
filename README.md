@@ -3,6 +3,7 @@ Leveraging [Boxstarter](http://boxstarter.org) and [Chocolatey](http://chocolate
 Note: before you do this, ensure Weblaunch is enabled in Edge.  edge://flags - then look for ClickOnce, enable that. 
 
 TODO: 
+0. Create that missing PowerShell script.
 0. Enable NAS shares
 0. Bring across SSH identity from H:/
 0. Copy across gitconfig.template so that the email / name is correct.

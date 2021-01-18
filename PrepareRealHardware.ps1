@@ -9,7 +9,7 @@ $helperUri = $helperUri.Substring($strpos + $bstrappackage.Length)
 $helperUri = $helperUri.TrimStart("'", " ")
 $helperUri = $helperUri.TrimEnd("'", " ")
 $helperUri = $helperUri.Substring(0, $helperUri.LastIndexOf("/"))
-$helperUri += "/development"
+$helperUri += "/realhardware"
 write-host "helper script base URI is $helperUri"
 
 function executeScript {
@@ -18,11 +18,10 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-executeScript "AzureDevops.ps1"
-executeScript "Browsers.ps1"
-executeScript "Communication.ps1"
-executeScript "DotNet.ps1"
-executeScript "Tools.ps1"
-executeScript "VisualStudio.ps1"
+executeScript "HyperV.ps1"
+executeScript "Docker.ps1";
+executeScript "WSL.ps1";
 
 Enable-UAC
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -acceptEula

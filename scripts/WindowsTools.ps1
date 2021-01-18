@@ -11,3 +11,5 @@ choco install -y vlc
 choco install -y javaruntime
 choco install -y skype
 choco install -y google-backup-and-sync
+choco install -y wireguard
+choco install -y steam

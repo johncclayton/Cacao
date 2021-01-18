@@ -18,10 +18,11 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-executeScript "DotNet.ps1";
-executeScript "VisualStudio.ps1"
+#executeScript "Communication.ps1"
+#executeScript "DotNet.ps1";
+#executeScript "VisualStudio.ps1"
 executeScript "Docker.ps1";
-executeScript "AzureDevops.ps1";
+#executeScript "AzureDevops.ps1";
 
 Enable-UAC
 Enable-MicrosoftUpdate

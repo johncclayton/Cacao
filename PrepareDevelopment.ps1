@@ -21,6 +21,8 @@ function executeScript {
 #executeScript "Communication.ps1"
 #executeScript "DotNet.ps1";
 #executeScript "VisualStudio.ps1"
+#executeScript "Tools.ps1"
+#executeScript "HyperV.ps1"
 executeScript "Docker.ps1";
 #executeScript "AzureDevops.ps1";
 

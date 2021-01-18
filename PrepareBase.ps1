@@ -10,7 +10,7 @@ $helperUri = $helperUri.Substring($strpos + $bstrappackage.Length)
 $helperUri = $helperUri.TrimStart("'", " ")
 $helperUri = $helperUri.TrimEnd("'", " ")
 $helperUri = $helperUri.Substring(0, $helperUri.LastIndexOf("/"))
-$helperUri += "/scripts"
+$helperUri += "/base"
 write-host "helper script base URI is $helperUri"
 
 function executeScript {
@@ -24,10 +24,6 @@ executeScript "EnableDeveloperMode.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonTools.ps1";
-executeScript "WindowsTools.ps1";
-
-#--- Configure Git environment .gitconfig, PowerShell ---
-executeScript "ConfigureGit.ps1";
 
 #--- Configure network / file sharing and remote desktop
 executeScript "NetworkAndFileSharing.ps1"

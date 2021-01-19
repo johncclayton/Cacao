@@ -38,5 +38,5 @@ Now you should reboot!
 
 <a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareDevelopment.ps1'>Install my development tools!</a>
 
-<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareNetwork.ps1'>Once basic is done - prepare the NAS connection!</a>
+<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareRealHardware.ps1'>Feeling lucky?  Wanna try WSL / Docker and Hyper-V?</a>
 

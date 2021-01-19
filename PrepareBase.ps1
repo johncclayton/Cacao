@@ -1,5 +1,4 @@
 # Description: Boxstarter Script  
-
 Disable-UAC
 
 # Get the base URI path from the ScriptToCall value

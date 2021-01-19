@@ -7,6 +7,5 @@ choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTermi
 choco install -y 1Password
 choco install -y microsoft-edge
 choco install -y vscode
-choco install -y nodejs
 choco install -y openssh
 choco install -y curl

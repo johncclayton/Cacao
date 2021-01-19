@@ -18,6 +18,8 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+
 executeScript "AzureDevops.ps1"
 executeScript "Browsers.ps1"
 executeScript "Communication.ps1"

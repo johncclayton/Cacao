@@ -18,8 +18,6 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-
 #--- Setting up Windows ---
 executeScript "EnableDeveloperMode.ps1";
 executeScript "FileExplorerSettings.ps1";

@@ -4,8 +4,10 @@ choco install -y 7zip.install
 choco install -y winrar
 
 choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
-choco install -y 1Password
 choco install -y microsoft-edge
 choco install -y vscode
 choco install -y openssh
 choco install -y curl
+
+choco install -y 1Password
+choco install -y nssm

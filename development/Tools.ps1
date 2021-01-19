@@ -19,3 +19,5 @@ choco install -y nodejs
 choco install -y cmdermini
 choco install -y javaruntime
 choco install -y steam
+
+choco install -y 1Password -force

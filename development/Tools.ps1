@@ -2,11 +2,11 @@ choco install -y sysinternals
 choco install -y ngrok.portable
 #choco install -y python3
 choco install -y fiddler
-choco install -y winscp
+#choco install -y winscp
 choco install -y rapidee
 choco install -y snoop
 choco install -y SourceTree
-choco install -y notepadplusplus
+#choco install -y notepadplusplus
 
 # tools to ease life working with Windows
 choco install -y cmdermini

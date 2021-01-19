@@ -23,5 +23,3 @@ executeScript "Docker.ps1";
 executeScript "WSL.ps1";
 
 Enable-UAC
-Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula

@@ -10,6 +10,8 @@ Steps to run this:
   5. You'll *definately* want to reboot.
   6. If this is a real piece of hardware, you can <a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareRealHardware.ps1'>click this link to get Docker, WSL2 and Hyper-V</a> enabled too.
 
+Just in case: <a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/EnableSoftwareUpdates.ps1'>you can re-enable s/ware updates here</a>
+
 Manual steps left to automate:
 
   0. Enable NAS shares, P, L, F, H

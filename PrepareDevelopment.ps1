@@ -32,3 +32,4 @@ executeScript "VisualStudio.ps1"
 executeScript "PoshGit.ps1"
 
 Enable-UAC
+Enable-MicrosoftUpdate

@@ -14,9 +14,7 @@ Manual steps left to automate:
 
   0. Enable NAS shares, P, L, F, H
   0. Packing Unwind as an App
-  0. Creating the Jenkins VM.
-  0. Create Hyper-V network bridge (PowerShell?)
-  0. Copy tools to c:\Tools, and add c:\Tools to environment vars.
+  0. Create Hyper-V network called "Bridged" (PowerShell?)
   0. WarGaming account email to johnclayton72@gmail.com
   0. App links on the TaskBar
      - PowerShell (Admin rights)
@@ -25,4 +23,4 @@ Manual steps left to automate:
      - 1Password
      - Visual Studio Code
      - Visual Studio
-  0. Importing the FW Srv virtual machine into Hyper-V.  Could this be Choco?
+  

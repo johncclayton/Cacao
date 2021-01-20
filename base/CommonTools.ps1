@@ -10,4 +10,3 @@ choco install -y openssh
 choco install -y curl
 
 choco install -y 1Password
-choco install -y nssm

@@ -1,32 +1,25 @@
 Leveraging [Boxstarter](http://boxstarter.org) and [Chocolatey](http://chocolatey.org) to quickly install most of the developers tools I use on a Windows machine.
 
-Note: before you do this, ensure Weblaunch is enabled in Edge.  edge://flags - then look for ClickOnce, enable that. 
+Steps to run this:
 
-TODO: 
-0. Enable NAS shares, P, L, F
-0. Create Hyper-V network bridge (PowerShell?)
-0. Copy tools to c:\Tools
-0. Add c:\Tools to environment vars.
-0. WarGaming account email to johnclayton72@gmail.com
+  1. Wait for updates to complete.  
+  1. Ensure Weblaunch is enabled in Edge.  Go to <a href="edge://flags">edge://flags</a> then look for ClickOnce, enable that and close the tab.
+  2. <a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareBase.ps1'>Install the base tools</a>
+  3. You'll probably want to reboot.
+  4. <a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareDevelopment.ps1'>Install all the development tools</a>
+  5. You'll *definately* want to reboot.
+  6. If this is a real piece of hardware, you can <a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareRealHardware.ps1'>click this link to get Docker, WSL2 and Hyper-V</a> enabled too.
 
-5. Adding to the TaskBar
-    - PowerShell (Admin rights)
-    - Spotify
-    - Sonos
-    - 1Password
-    - Visual Studio Code
-    - Visual Studio
+Manual steps left to automate:
 
-Allow in FireWall
-- WoT
-- iRacing
-
-
-<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareBase.ps1'>Install my basic tools!</a>
-
-Now you should reboot!
-
-<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareDevelopment.ps1'>Install my development tools!</a>
-
-<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/johncclayton/Win10FastStart/master/PrepareRealHardware.ps1'>Feeling lucky?  Wanna try WSL / Docker and Hyper-V?</a>
-
+  1. Enable NAS shares, P, L, F
+  0. Create Hyper-V network bridge (PowerShell?)
+  0. Copy tools to c:\Tools, and add c:\Tools to environment vars.
+  0. WarGaming account email to johnclayton72@gmail.com
+  0. App links on the TaskBar
+     - PowerShell (Admin rights)
+     - Spotify
+     - Sonos
+     - 1Password
+     - Visual Studio Code
+     - Visual Studio

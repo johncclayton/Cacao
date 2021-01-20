@@ -15,7 +15,6 @@ Manual steps left to automate:
   0. Enable NAS shares, P, L, F, H
   0. Packing Unwind as an App
   0. Create Hyper-V network called "Bridged" (PowerShell?)
-  0. WarGaming account email to johnclayton72@gmail.com
   0. App links on the TaskBar
      - PowerShell (Admin rights)
      - Spotify

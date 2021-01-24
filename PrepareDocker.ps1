@@ -18,9 +18,7 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-executeScript "HyperV.ps1"
 executeScript "Docker.ps1";
-executeScript "WSL.ps1";
 
 Enable-UAC
 Enable-MicrosoftUpdate

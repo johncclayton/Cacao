@@ -18,7 +18,7 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-executeScript "WSL.ps1";
+executeScript "WSL2.ps1";
 
 Enable-UAC
 Enable-MicrosoftUpdate

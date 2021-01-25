@@ -17,7 +17,6 @@ Steps to run this:
 
 Manual steps left to automate:
 
-  0. Enable NAS shares, P, L, F, H
   0. Packing Unwind as an App
   0. Create Hyper-V network called "Bridged" (PowerShell?)
 

@@ -28,7 +28,7 @@ executeScript "CommonTools.ps1";
 executeScript "NetworkAndFileSharing.ps1"
 
 #--- Allows for the WindowsPowerShell stuff to run.
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+#Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 
 Enable-UAC
 Enable-MicrosoftUpdate

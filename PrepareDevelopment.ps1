@@ -29,8 +29,6 @@ executeScript "Communication.ps1"
 executeScript "DotNet.ps1"
 executeScript "Tools.ps1"
 executeScript "VisualStudio.ps1"
-#executeScript "PoshGit.ps1"
-#executeScript "CreateTaskbarPins.sh"
 
 Enable-UAC
 Enable-MicrosoftUpdate

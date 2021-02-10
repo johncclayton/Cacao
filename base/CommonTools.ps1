@@ -9,5 +9,6 @@ choco install -y vscode
 choco install -y openssh
 choco install -y wincrypt-sshagent
 choco install -y curl
+choco install -y powershell-core 
 
 choco install -y 1Password

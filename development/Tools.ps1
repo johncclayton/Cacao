@@ -16,7 +16,6 @@ choco install -y notepadplusplus
 choco install -y nodejs
 
 # tools to ease life working with Windows
-#choco install -y cmdermini
 choco install -y javaruntime
 choco install -y steam
 

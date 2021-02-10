@@ -27,9 +27,6 @@ executeScript "CommonTools.ps1";
 #--- Configure network / file sharing and remote desktop
 executeScript "NetworkAndFileSharing.ps1"
 
-#--- Allows for the WindowsPowerShell stuff to run.
-#Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
-
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula

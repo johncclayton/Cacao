@@ -8,3 +8,4 @@ choco install -y steam
 choco install -y windirstat
 
 choco install -y 1Password -force
+choco install -y 1password-cli

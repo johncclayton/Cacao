@@ -1,3 +1,2 @@
-#choco install -y azure-cli
-# don't need this just yet.
-choco install -y microsoftazurestorageexplorer
+choco install -y microsoftazurestorageexplorer azure-cli
+choco install -y terraform

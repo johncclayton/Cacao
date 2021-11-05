@@ -27,7 +27,7 @@ executeScript "Browsers.ps1"
 executeScript "Communication.ps1"
 executeScript "DotNet.ps1"
 executeScript "Tools.ps1"
-executeScript "VisualStudio.ps1"
+#executeScript "VisualStudio.ps1"
 
 Enable-UAC
 Enable-MicrosoftUpdate
